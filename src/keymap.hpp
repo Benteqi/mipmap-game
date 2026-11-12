@@ -14,9 +14,9 @@ enum class Actions : char {
 };
 inline std::unordered_map<sf::Keyboard::Scancode, Actions> keymap = {
 	{sf::Keyboard::Scancode::W , Actions::MoveUp },
-	{sf::Keyboard::Scancode::D , Actions::MoveRight },
+	{sf::Keyboard::Scancode::A , Actions::MoveRight },
 	{sf::Keyboard::Scancode::S , Actions::MoveDown },
-	{sf::Keyboard::Scancode::A , Actions::MoveLeft },
+	{sf::Keyboard::Scancode::D , Actions::MoveLeft },
 	{sf::Keyboard::Scancode::Escape , Actions::Close },
 	{sf::Keyboard::Scancode::Space , Actions::Dash },
 };
